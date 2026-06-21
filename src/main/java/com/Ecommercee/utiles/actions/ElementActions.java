@@ -1,6 +1,8 @@
 package com.Ecommercee.utiles.actions;
 
+import com.Ecommercee.Pages.P_AdPage;
 import com.Ecommercee.WaitManager;
+import com.Ecommercee.drivers.GUIDriver;
 import com.Ecommercee.utiles.logs.logsManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

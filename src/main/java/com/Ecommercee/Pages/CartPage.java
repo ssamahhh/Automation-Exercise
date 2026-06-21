@@ -41,6 +41,7 @@ public class CartPage {
 
     @Step("Click Proceed To Checkout")
     public CheckoutPage clickProceedToCheckout() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(proceedToCheckout);
         return new CheckoutPage(driver);
     }
@@ -54,12 +55,14 @@ public class CartPage {
 
     @Step("Click here link to navigate to products page")
     public ProductsPage clickHereLink() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(hereLink);
         return new ProductsPage(driver);
     }
 
     @Step("Delete all products from cart")
     public CartPage deleteAllProducts() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(deleteButtons);
         return this;
     }

@@ -22,8 +22,8 @@ public class CheckoutPage {
     // Actions
     @Step("Click Register/Login Link")
     public LoginPage clickRegisterLoginLink() {
-        driver.element().click(registerLoginLink);
         new P_AdPage(driver).handleAdIfPresent();
+        driver.element().click(registerLoginLink);
         return new LoginPage(driver);
     }
 
@@ -47,8 +47,8 @@ public class CheckoutPage {
 
     @Step("Click Place Order")
     public PaymentPage clickPlaceOrder() {
-        driver.element().click(placeOrderButton);
         new P_AdPage(driver).handleAdIfPresent();
+        driver.element().click(placeOrderButton);
         return new PaymentPage(driver);
     }
 }

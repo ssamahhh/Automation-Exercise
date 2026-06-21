@@ -1,0 +1,19 @@
+[INFO] 22-06-2026 01:48:08 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:48:14 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/view_cart
+[INFO] 22-06-2026 01:48:15 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //a[@href='/products']
+[INFO] 22-06-2026 01:48:18 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:48:18 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:18 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 22-06-2026 01:48:18 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:20 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 22-06-2026 01:48:21 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 22-06-2026 01:48:22 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:48:22 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:22 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 22-06-2026 01:48:22 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:24 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 22-06-2026 01:48:24 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
+[INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='Register / Login']

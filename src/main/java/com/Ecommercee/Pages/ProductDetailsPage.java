@@ -60,18 +60,21 @@ public class ProductDetailsPage {
 
     @Step("Click Add To Cart button")
     public ProductDetailsPage clickAddToCart() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(addToCartButton);
         return this;
     }
 
     @Step("Click Continue Shopping")
     public ProductDetailsPage clickContinueShopping() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(continueShoppingButton);
         return this;
     }
 
     @Step("Click View Cart")
     public CartPage clickViewCart() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(viewCartButton);
         return new CartPage(driver);
     }
@@ -92,6 +95,7 @@ public class ProductDetailsPage {
     }
 
     public ProductDetailsPage submitReview() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(SubmitReviewButton);
         return this;
     }
