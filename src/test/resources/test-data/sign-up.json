@@ -1,0 +1,26 @@
+{
+  "name": "Automation_Test",
+  "email": "samahsameh_",
+  "existemail":"testerqaeng@gmail.com" ,
+  "titleMale": "Mr",
+  "titleFemale": "Mrs",
+  "password": "Test1234",
+  "day": "1",
+  "month": "January",
+  "year": "1990",
+  "firstName": "Automation",
+  "lastName": "Test",
+  "company": "Automation Test Company",
+  "address1": "123 Automation Street",
+  "address2": "Suite 100",
+  "city": "Automation City",
+  "state": "California",
+  "zipcode": "12345",
+  "country": "United States",
+  "mobilePhone": "1234567890",
+  "messages": {
+    "error": "Email Address already exist!",
+    "accountCreatedMsg": "Account Created!"
+  }
+
+}

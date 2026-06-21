@@ -1,0 +1,32 @@
+[DEBUG] 21-06-2026 03:20:53 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ContactusTests.setup()[pri:0, instance:null] 988724349
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ContactusTests.tearDown()[pri:0, instance:null] -1600103386
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ContactusTests.tc2()[pri:0, instance:ContactusTests@360e9c06] -2029349305
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 03:20:55 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-06-2026 03:20:55 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 21-06-2026 03:20:55 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 03:21:02 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/contact_us
+[DEBUG] 21-06-2026 03:21:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[ERROR] 21-06-2026 03:21:03 [main] [com.Ecommercee.utiles.dataReader.JsonReader] - Error reading json file for path:  path can not be null or empty
+[DEBUG] 21-06-2026 03:21:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['subject']
+[DEBUG] 21-06-2026 03:21:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']
+[INFO] 21-06-2026 03:21:03 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name
+[INFO] 21-06-2026 03:21:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '' into element: By.name: email
+[INFO] 21-06-2026 03:21:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Inquiry About Products' into element: By.name: subject
+[INFO] 21-06-2026 03:21:05 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'This is a test message sent through the Contact Us form.' into element: By.id: message
+[DEBUG] 21-06-2026 03:21:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['filePath']
+[INFO] 21-06-2026 03:21:05 [main] [com.Ecommercee.utiles.actions.ElementActions] - Uploaded file 'D:\SoftwareTesting-iti\selenium\Project\E-commercee\src/cat.jpg' using element: By.name: upload_file
+[INFO] 21-06-2026 03:21:05 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.name: submit

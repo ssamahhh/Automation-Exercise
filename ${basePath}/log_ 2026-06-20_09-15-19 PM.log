@@ -1,0 +1,25 @@
+[DEBUG] 20-06-2026 21:15:19 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.setup()[pri:0, instance:null] 1126603022
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.tearDown()[pri:0, instance:null] -647464747
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.tc3()[pri:0, instance:ProductTests@4833eff3] -1225491138
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:15:21 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 21:15:21 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 21:15:21 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 20-06-2026 21:15:30 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[DEBUG] 20-06-2026 21:15:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchProduct']
+[INFO] 20-06-2026 21:15:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Blue Top' into element: By.id: search_product
+[INFO] 20-06-2026 21:15:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit_search
+[INFO] 20-06-2026 21:15:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]

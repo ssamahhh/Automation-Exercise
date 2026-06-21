@@ -1,0 +1,20 @@
+[DEBUG] 20-06-2026 22:27:59 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.setup()[pri:0, instance:null] -2063151909
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tearDown()[pri:0, instance:null] 524823812
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tc()[pri:0, instance:CartTests@5807efad] 1155797120
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:28:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 22:28:02 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 22:28:02 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge

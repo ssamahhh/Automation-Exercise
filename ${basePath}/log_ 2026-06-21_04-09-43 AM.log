@@ -1,0 +1,7 @@
+[INFO] 21-06-2026 04:09:43 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 04:10:25 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 21-06-2026 04:10:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 21-06-2026 04:10:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'samah' into element: By.id: name
+[INFO] 21-06-2026 04:10:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'test@example.com' into element: By.id: email
+[INFO] 21-06-2026 04:10:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'review' into element: By.id: review
+[INFO] 21-06-2026 04:10:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: button-review

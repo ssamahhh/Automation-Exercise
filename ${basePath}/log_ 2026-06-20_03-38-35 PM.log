@@ -1,0 +1,21 @@
+[DEBUG] 20-06-2026 15:38:36 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.setup()[pri:0, instance:null] -208304578
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tearDown()[pri:0, instance:null] 1775986277
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tc()[pri:0, instance:HomeTests@6bc24e72] 417784262
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:38:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 15:38:38 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 15:38:38 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 20-06-2026 15:38:49 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com

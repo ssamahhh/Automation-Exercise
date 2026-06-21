@@ -1,0 +1,22 @@
+[DEBUG] 20-06-2026 21:11:57 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.setup()[pri:0, instance:null] 1126603022
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.tearDown()[pri:0, instance:null] -647464747
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE ProductTests.tc()[pri:0, instance:ProductTests@4833eff3] -1226381737
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 21:11:59 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 21:11:59 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 21:12:00 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 20-06-2026 21:12:10 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com
+[INFO] 20-06-2026 21:12:13 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a[href='/products']

@@ -1,0 +1,26 @@
+[DEBUG] 18-06-2026 14:44:21 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.setup()[pri:0, instance:null] -208304578
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tearDown()[pri:0, instance:null] 1775986277
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tc()[pri:0, instance:HomeTests@40230eb9] -314072563
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 14:44:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 18-06-2026 14:44:23 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 18-06-2026 14:44:23 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 18-06-2026 14:44:32 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com
+[DEBUG] 18-06-2026 14:44:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] 18-06-2026 14:44:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //button[@id='subscribe']
+[DEBUG] 18-06-2026 14:44:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']
+[INFO] 18-06-2026 14:44:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'You have been successfully subscribed!' from element: By.xpath: //*[normalize-space(text())='You have been successfully subscribed!']
+[INFO] 18-06-2026 14:44:35 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [id="scrollUp"]

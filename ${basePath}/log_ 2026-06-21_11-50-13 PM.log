@@ -1,0 +1,7 @@
+[INFO] 21-06-2026 23:50:14 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 23:50:29 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 21-06-2026 23:50:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 21-06-2026 23:50:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 21-06-2026 23:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 21-06-2026 23:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Logged in as tester' from element: By.xpath: //a[contains(.,'Logged in as')]
+[INFO] 21-06-2026 23:50:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a[href='/logout']

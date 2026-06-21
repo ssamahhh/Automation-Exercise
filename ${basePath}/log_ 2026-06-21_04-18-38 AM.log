@@ -1,0 +1,8 @@
+[INFO] 21-06-2026 04:18:38 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 04:19:03 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/contact_us
+[INFO] 21-06-2026 04:19:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name
+[INFO] 21-06-2026 04:19:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testuser@gmail.com' into element: By.name: email
+[INFO] 21-06-2026 04:19:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Inquiry About Products' into element: By.name: subject
+[INFO] 21-06-2026 04:19:04 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'This is a test message sent through the Contact Us form.' into element: By.id: message
+[INFO] 21-06-2026 04:19:05 [main] [com.Ecommercee.utiles.actions.ElementActions] - Uploaded file 'D:\SoftwareTesting-iti\selenium\Project\E-commercee\src/cat.jpg' using element: By.name: upload_file
+[INFO] 21-06-2026 04:19:05 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.name: submit

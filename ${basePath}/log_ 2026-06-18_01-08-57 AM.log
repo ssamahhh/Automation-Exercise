@@ -1,0 +1,26 @@
+[DEBUG] 18-06-2026 01:08:58 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.setup()[pri:0, instance:null] -626968702
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.tearDown()[pri:0, instance:null] 1089460057
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.existUser()[pri:0, instance:RegisterTests@234cff57] -298461156
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:09:00 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 18-06-2026 01:09:00 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 18-06-2026 01:09:00 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 18-06-2026 01:09:06 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[DEBUG] 18-06-2026 01:09:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] 18-06-2026 01:09:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['existemail']
+[INFO] 18-06-2026 01:09:06 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa='signup-name']
+[INFO] 18-06-2026 01:09:07 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='signup-email']
+[INFO] 18-06-2026 01:09:08 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']

@@ -1,0 +1,46 @@
+[DEBUG] 20-06-2026 15:13:40 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.setup()[pri:0, instance:null] -208304578
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tearDown()[pri:0, instance:null] 1775986277
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.setup()[pri:0, instance:null] 142720580
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.tearDown()[pri:0, instance:null] -1831903589
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.setup()[pri:0, instance:null] -626968702
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.tearDown()[pri:0, instance:null] 1089460057
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.verifySubscriptionAndScrollUpSuccessfully()[pri:0, instance:HomeTests@21eee94f] 1013592126
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE HomeTests.tc()[pri:0, instance:HomeTests@21eee94f] -820806493
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.validLogin()[pri:0, instance:LoginTests@39c96e48] -1901986796
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.loginWithEmptyFields()[pri:0, instance:LoginTests@39c96e48] -903017318
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.invalidEmailLogin()[pri:0, instance:LoginTests@39c96e48] -1416352083
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.existUser()[pri:0, instance:RegisterTests@5e9f73b] -791490560
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.newUser()[pri:0, instance:RegisterTests@5e9f73b] -1892198137
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 15:13:42 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 15:13:42 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 15:13:43 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge

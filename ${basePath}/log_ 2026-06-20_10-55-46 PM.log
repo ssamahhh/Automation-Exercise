@@ -1,0 +1,33 @@
+[DEBUG] 20-06-2026 22:55:46 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.setup()[pri:0, instance:null] -2063151909
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tearDown()[pri:0, instance:null] 524823812
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tc3()[pri:0, instance:CartTests@4bcaa195] 951093393
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:55:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 22:55:48 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 22:55:48 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 20-06-2026 22:55:55 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 20-06-2026 22:55:56 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 20-06-2026 22:55:56 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 20-06-2026 22:55:58 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 20-06-2026 22:55:58 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
+[INFO] 20-06-2026 22:55:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='Register / Login']
+[DEBUG] 20-06-2026 22:55:59 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmail']
+[DEBUG] 20-06-2026 22:55:59 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validPassword']
+[INFO] 20-06-2026 22:55:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 20-06-2026 22:56:00 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 20-06-2026 22:56:01 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 20-06-2026 22:56:02 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //*[normalize-space(text())='Cart']
+[INFO] 20-06-2026 22:56:03 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out

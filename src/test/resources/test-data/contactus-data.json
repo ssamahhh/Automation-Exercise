@@ -1,0 +1,8 @@
+{
+  "name": "Test User",
+  "email": "testuser@gmail.com",
+  "subject": "Inquiry About Products",
+  "message": "This is a test message sent through the Contact Us form.",
+  "invalidEmail": "testuser",
+  "filePath": "src/cat.jpg"
+}

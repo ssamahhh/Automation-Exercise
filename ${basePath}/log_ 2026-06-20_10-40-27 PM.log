@@ -1,0 +1,27 @@
+[DEBUG] 20-06-2026 22:40:28 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.setup()[pri:0, instance:null] -2063151909
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tearDown()[pri:0, instance:null] 524823812
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CartTests.tc2()[pri:0, instance:CartTests@5b7aa898] 1214287671
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 22:40:29 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 22:40:29 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 22:40:30 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 20-06-2026 22:40:37 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 20-06-2026 22:40:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 20-06-2026 22:40:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 20-06-2026 22:40:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 20-06-2026 22:40:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a.cart_quantity_delete
+[INFO] 20-06-2026 22:40:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text '' from element: By.xpath: //b[text()='Cart is empty!']
+[INFO] 20-06-2026 22:40:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Cart is empty!' from element: By.xpath: //b[text()='Cart is empty!']

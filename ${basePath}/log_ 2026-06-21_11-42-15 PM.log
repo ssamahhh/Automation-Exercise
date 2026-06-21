@@ -1,0 +1,17 @@
+[INFO] 21-06-2026 23:42:15 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 23:42:28 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 21-06-2026 23:42:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'invalidemail@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 21-06-2026 23:42:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 21-06-2026 23:42:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 21-06-2026 23:42:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Your email or password is incorrect!' from element: By.xpath: //form[@action='/login']//p
+[INFO] 21-06-2026 23:42:36 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 23:42:41 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 21-06-2026 23:42:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 21-06-2026 23:42:41 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Current URL: https://automationexercise.com/login
+[INFO] 21-06-2026 23:42:44 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 23:42:48 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 21-06-2026 23:42:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 21-06-2026 23:42:49 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 21-06-2026 23:42:50 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 21-06-2026 23:42:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Logged in as tester' from element: By.xpath: //a[contains(.,'Logged in as')]
+[INFO] 21-06-2026 23:42:53 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a[href='/logout']

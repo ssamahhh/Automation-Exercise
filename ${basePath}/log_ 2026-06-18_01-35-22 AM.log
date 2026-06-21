@@ -1,0 +1,28 @@
+[DEBUG] 18-06-2026 01:35:22 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.setup()[pri:0, instance:null] 142720580
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.tearDown()[pri:0, instance:null] -1831903589
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTests.invalidEmailLogin()[pri:0, instance:LoginTests@57c00115] -913653382
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 01:35:24 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 18-06-2026 01:35:24 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 18-06-2026 01:35:25 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 18-06-2026 01:35:32 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[DEBUG] 18-06-2026 01:35:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidEmail']
+[DEBUG] 18-06-2026 01:35:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validPassword']
+[INFO] 18-06-2026 01:35:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'invalidemail@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 18-06-2026 01:35:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 18-06-2026 01:35:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[DEBUG] 18-06-2026 01:35:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidEmailMsg']
+[INFO] 18-06-2026 01:35:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Your email or password is incorrect!' from element: By.xpath: //form[@action='/login']//p

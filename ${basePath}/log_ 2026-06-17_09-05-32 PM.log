@@ -1,0 +1,61 @@
+[DEBUG] 17-06-2026 21:05:33 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.setup()[pri:0, instance:null] -626968702
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.tearDown()[pri:0, instance:null] 1089460057
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.newUser()[pri:0, instance:RegisterTests@71b639d0] -83649636
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:05:35 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 17-06-2026 21:05:35 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 17-06-2026 21:05:35 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 17-06-2026 21:05:41 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[DEBUG] 17-06-2026 21:05:41 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] 17-06-2026 21:05:41 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] 17-06-2026 21:05:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa='signup-name']
+[INFO] 17-06-2026 21:05:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'samahsameh_2026-06-17_21-05-41@gmail.com' into element: By.cssSelector: [data-qa='signup-email']
+[INFO] 17-06-2026 21:05:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] 17-06-2026 21:05:43 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobilePhone']
+[INFO] 17-06-2026 21:05:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: id_gender1
+[INFO] 17-06-2026 21:05:44 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test1234' into element: By.cssSelector: [data-qa='password']
+[INFO] 17-06-2026 21:05:45 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1' from dropdown: By.cssSelector: [data-qa='days']
+[INFO] 17-06-2026 21:05:46 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option 'January' from dropdown: By.cssSelector: [data-qa='months']
+[INFO] 17-06-2026 21:05:46 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1990' from dropdown: By.cssSelector: [data-qa='years']
+[INFO] 17-06-2026 21:05:46 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] 17-06-2026 21:05:47 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] 17-06-2026 21:05:47 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation' into element: By.cssSelector: [data-qa='first_name']
+[INFO] 17-06-2026 21:05:47 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test' into element: By.cssSelector: [data-qa='last_name']
+[INFO] 17-06-2026 21:05:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation Test Company' into element: By.cssSelector: [data-qa='company']
+[INFO] 17-06-2026 21:05:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123 Automation Street' into element: By.cssSelector: [data-qa='address']
+[INFO] 17-06-2026 21:05:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Suite 100' into element: By.cssSelector: [data-qa='address2']
+[INFO] 17-06-2026 21:05:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option 'United States' from dropdown: By.cssSelector: [data-qa='country']
+[INFO] 17-06-2026 21:05:48 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'California' into element: By.cssSelector: [data-qa='state']
+[INFO] 17-06-2026 21:05:49 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation City' into element: By.cssSelector: [data-qa='city']
+[INFO] 17-06-2026 21:05:49 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12345' into element: By.cssSelector: [data-qa='zipcode']
+[INFO] 17-06-2026 21:05:49 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '1234567890' into element: By.cssSelector: [data-qa='mobile_number']
+[INFO] 17-06-2026 21:05:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='create-account']
+[DEBUG] 17-06-2026 21:05:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['accountCreatedMsg']
+[ERROR] 17-06-2026 21:05:51 [main] [com.Ecommercee.utiles.dataReader.JsonReader] - Error reading json file for path: accountCreatedMsg No results for path: $['accountCreatedMsg']

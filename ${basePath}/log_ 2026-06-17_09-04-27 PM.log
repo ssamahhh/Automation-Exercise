@@ -1,0 +1,195 @@
+[DEBUG] 17-06-2026 21:04:28 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.setup()[pri:0, instance:null] -626968702
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.tearDown()[pri:0, instance:null] 1089460057
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE RegisterTests.newUser()[pri:0, instance:RegisterTests@1e60b459] -1481763291
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 21:04:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 17-06-2026 21:04:30 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 17-06-2026 21:04:30 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 17-06-2026 21:04:36 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[DEBUG] 17-06-2026 21:04:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] 17-06-2026 21:04:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] 17-06-2026 21:04:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa='signup-name']
+[INFO] 17-06-2026 21:04:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'samahsameh_2026-06-17_21-04-36@gmail.com' into element: By.cssSelector: [data-qa='signup-email']
+[INFO] 17-06-2026 21:04:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] 17-06-2026 21:04:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobilePhone']
+[INFO] 17-06-2026 21:04:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: id_gender1
+[INFO] 17-06-2026 21:04:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test1234' into element: By.cssSelector: [data-qa='password']
+[INFO] 17-06-2026 21:04:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1' from dropdown: By.cssSelector: [data-qa='days']
+[INFO] 17-06-2026 21:04:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option 'January' from dropdown: By.cssSelector: [data-qa='months']
+[INFO] 17-06-2026 21:04:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1990' from dropdown: By.cssSelector: [data-qa='years']
+[INFO] 17-06-2026 21:04:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] 17-06-2026 21:04:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] 17-06-2026 21:04:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation' into element: By.cssSelector: [data-qa='first_name']
+[INFO] 17-06-2026 21:04:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test' into element: By.cssSelector: [data-qa='last_name']
+[INFO] 17-06-2026 21:04:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation Test Company' into element: By.cssSelector: [data-qa='company']
+[INFO] 17-06-2026 21:04:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123 Automation Street' into element: By.cssSelector: [data-qa='address']
+[INFO] 17-06-2026 21:04:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Suite 100' into element: By.cssSelector: [data-qa='address2']
+[TRACE] 17-06-2026 21:04:53 [main] [io.qameta.allure.util.ReflectionUtils] - Unable to read value via field actualDefined
+java.lang.NoSuchFieldException: actualDefined
+	at java.base/java.lang.Class.getField(Class.java:2070)
+	at io.qameta.allure.util.ReflectionUtils.getFieldValue(ReflectionUtils.java:76)
+	at io.qameta.allure.util.ReflectionUtils.getValue(ReflectionUtils.java:54)
+	at io.qameta.allure.util.ReflectionUtils.getBooleanValue(ReflectionUtils.java:69)
+	at io.qameta.allure.util.ResultsUtils.getRichErrorProperty(ResultsUtils.java:460)
+	at io.qameta.allure.util.ResultsUtils.lambda$getStatusDetails$8(ResultsUtils.java:354)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at io.qameta.allure.util.ResultsUtils.getStatusDetails(ResultsUtils.java:346)
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:468)
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:464)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:787)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[TRACE] 17-06-2026 21:04:53 [main] [io.qameta.allure.util.ReflectionUtils] - Unable to read value via field actual
+java.lang.NoSuchFieldException: actual
+	at java.base/java.lang.Class.getField(Class.java:2070)
+	at io.qameta.allure.util.ReflectionUtils.getFieldValue(ReflectionUtils.java:76)
+	at io.qameta.allure.util.ReflectionUtils.getValue(ReflectionUtils.java:54)
+	at io.qameta.allure.util.ResultsUtils.getRichErrorProperty(ResultsUtils.java:469)
+	at io.qameta.allure.util.ResultsUtils.lambda$getStatusDetails$8(ResultsUtils.java:354)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at io.qameta.allure.util.ResultsUtils.getStatusDetails(ResultsUtils.java:346)
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:468)
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:464)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:787)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[TRACE] 17-06-2026 21:04:53 [main] [io.qameta.allure.util.ReflectionUtils] - Unable to read value via field expectedDefined
+java.lang.NoSuchFieldException: expectedDefined
+	at java.base/java.lang.Class.getField(Class.java:2070)
+	at io.qameta.allure.util.ReflectionUtils.getFieldValue(ReflectionUtils.java:76)
+	at io.qameta.allure.util.ReflectionUtils.getValue(ReflectionUtils.java:54)
+	at io.qameta.allure.util.ReflectionUtils.getBooleanValue(ReflectionUtils.java:69)
+	at io.qameta.allure.util.ResultsUtils.getRichErrorProperty(ResultsUtils.java:460)
+	at io.qameta.allure.util.ResultsUtils.lambda$getStatusDetails$8(ResultsUtils.java:355)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at io.qameta.allure.util.ResultsUtils.getStatusDetails(ResultsUtils.java:346)
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:468)
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:464)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:787)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[TRACE] 17-06-2026 21:04:53 [main] [io.qameta.allure.util.ReflectionUtils] - Unable to read value via field expected
+java.lang.NoSuchFieldException: expected
+	at java.base/java.lang.Class.getField(Class.java:2070)
+	at io.qameta.allure.util.ReflectionUtils.getFieldValue(ReflectionUtils.java:76)
+	at io.qameta.allure.util.ReflectionUtils.getValue(ReflectionUtils.java:54)
+	at io.qameta.allure.util.ResultsUtils.getRichErrorProperty(ResultsUtils.java:469)
+	at io.qameta.allure.util.ResultsUtils.lambda$getStatusDetails$8(ResultsUtils.java:355)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at io.qameta.allure.util.ResultsUtils.getStatusDetails(ResultsUtils.java:346)
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:468)
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:464)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:787)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

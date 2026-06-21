@@ -1,0 +1,32 @@
+[DEBUG] 21-06-2026 02:25:02 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PaymentTests.setup()[pri:0, instance:null] -317789755
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PaymentTests.tearDown()[pri:0, instance:null] 2000685598
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PaymentTests.ValidPaymentTc()[pri:0, instance:PaymentTests@6cd98a05] 1975909572
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-06-2026 02:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-06-2026 02:25:04 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sama7h\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 21-06-2026 02:25:05 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 21-06-2026 02:25:13 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/payment
+[DEBUG] 21-06-2026 02:25:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['nameOnCard']
+[DEBUG] 21-06-2026 02:25:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['cardNumber']
+[DEBUG] 21-06-2026 02:25:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['cvc']
+[DEBUG] 21-06-2026 02:25:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expiryMonth']
+[DEBUG] 21-06-2026 02:25:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expiryYear']
+[INFO] 21-06-2026 02:25:15 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name_on_card
+[INFO] 21-06-2026 02:25:15 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '4111111111111111' into element: By.name: card_number
+[INFO] 21-06-2026 02:25:16 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] 21-06-2026 02:25:16 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] 21-06-2026 02:25:16 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] 21-06-2026 02:25:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit

@@ -1,0 +1,8 @@
+{
+  "validEmail": "testerqaeng@gmail.com",
+  "validPassword": "Test@123",
+  "invalidEmail": "invalidemail@gmail.com",
+  "invalidPassword": "wrongpassword",
+  "messages": "Logged in as",
+  "invalidEmailMsg":"Your email or password is incorrect!"
+}
