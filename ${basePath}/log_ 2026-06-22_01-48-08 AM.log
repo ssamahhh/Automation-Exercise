@@ -17,3 +17,139 @@
 [INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
 [INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
 [INFO] 22-06-2026 01:48:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='Register / Login']
+[INFO] 22-06-2026 01:48:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 22-06-2026 01:48:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 22-06-2026 01:48:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 22-06-2026 01:48:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //*[normalize-space(text())='Cart']
+[INFO] 22-06-2026 01:48:32 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
+[INFO] 22-06-2026 01:48:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'comment' into element: By.name: message
+[INFO] 22-06-2026 01:48:33 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(text(),'Place Order')]
+[INFO] 22-06-2026 01:48:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name_on_card
+[INFO] 22-06-2026 01:48:35 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '4111111111111111' into element: By.name: card_number
+[INFO] 22-06-2026 01:48:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] 22-06-2026 01:48:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] 22-06-2026 01:48:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] 22-06-2026 01:48:38 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] 22-06-2026 01:48:39 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 22-06-2026 01:48:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:48:40 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 22-06-2026 01:48:40 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 22-06-2026 01:48:43 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:48:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a.cart_quantity_delete
+[INFO] 22-06-2026 01:48:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text '' from element: By.xpath: //b[text()='Cart is empty!']
+[INFO] 22-06-2026 01:48:44 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Cart is empty!' from element: By.xpath: //b[text()='Cart is empty!']
+[INFO] 22-06-2026 01:48:45 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:48:48 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/contact_us
+[INFO] 22-06-2026 01:48:50 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name
+[INFO] 22-06-2026 01:48:50 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testuser@gmail.com' into element: By.name: email
+[INFO] 22-06-2026 01:48:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Inquiry About Products' into element: By.name: subject
+[INFO] 22-06-2026 01:48:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'This is a test message sent through the Contact Us form.' into element: By.id: message
+[INFO] 22-06-2026 01:48:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Uploaded file 'D:\SoftwareTesting-iti\selenium\Project\E-commercee\src/cat.jpg' using element: By.name: upload_file
+[INFO] 22-06-2026 01:48:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.name: submit
+[INFO] 22-06-2026 01:48:53 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/contact_us
+[ERROR] 22-06-2026 01:48:53 [main] [com.Ecommercee.utiles.dataReader.JsonReader] - Error reading json file for path:  path can not be null or empty
+[INFO] 22-06-2026 01:48:53 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name
+[INFO] 22-06-2026 01:48:55 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '' into element: By.name: email
+[INFO] 22-06-2026 01:48:58 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Inquiry About Products' into element: By.name: subject
+[INFO] 22-06-2026 01:48:58 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'This is a test message sent through the Contact Us form.' into element: By.id: message
+[INFO] 22-06-2026 01:48:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Uploaded file 'D:\SoftwareTesting-iti\selenium\Project\E-commercee\src/cat.jpg' using element: By.name: upload_file
+[INFO] 22-06-2026 01:48:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.name: submit
+[INFO] 22-06-2026 01:49:00 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:04 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com
+[INFO] 22-06-2026 01:49:04 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:09 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com
+[INFO] 22-06-2026 01:49:09 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //button[@id='subscribe']
+[INFO] 22-06-2026 01:49:09 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'You have been successfully subscribed!' from element: By.xpath: //*[normalize-space(text())='You have been successfully subscribed!']
+[INFO] 22-06-2026 01:49:10 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [id="scrollUp"]
+[INFO] 22-06-2026 01:49:11 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:15 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:49:16 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'invalidemail@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 22-06-2026 01:49:16 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 22-06-2026 01:49:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 22-06-2026 01:49:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Your email or password is incorrect!' from element: By.xpath: //form[@action='/login']//p
+[INFO] 22-06-2026 01:49:17 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:20 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:49:23 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 22-06-2026 01:49:23 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Current URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:49:24 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:28 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:49:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 22-06-2026 01:49:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 22-06-2026 01:49:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 22-06-2026 01:49:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Logged in as tester' from element: By.xpath: //a[contains(.,'Logged in as')]
+[INFO] 22-06-2026 01:49:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a[href='/logout']
+[INFO] 22-06-2026 01:49:32 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:36 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/payment
+[ERROR] 22-06-2026 01:49:36 [main] [com.Ecommercee.utiles.dataReader.JsonReader] - Error reading json file for path:  path can not be null or empty
+[INFO] 22-06-2026 01:49:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name_on_card
+[INFO] 22-06-2026 01:49:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '4111111111111111' into element: By.name: card_number
+[INFO] 22-06-2026 01:49:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '' into element: By.name: cvc
+[INFO] 22-06-2026 01:49:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] 22-06-2026 01:49:38 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] 22-06-2026 01:49:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] 22-06-2026 01:49:40 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/payment
+[INFO] 22-06-2026 01:49:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name_on_card
+[INFO] 22-06-2026 01:49:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '4111111111111111' into element: By.name: card_number
+[INFO] 22-06-2026 01:49:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] 22-06-2026 01:49:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] 22-06-2026 01:49:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] 22-06-2026 01:49:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] 22-06-2026 01:49:44 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/payment
+[INFO] 22-06-2026 01:49:44 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] 22-06-2026 01:49:46 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:50 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com
+[INFO] 22-06-2026 01:49:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a[href='/products']
+[INFO] 22-06-2026 01:49:52 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:49:56 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 22-06-2026 01:49:57 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:49:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '3' into element: By.id: quantity
+[INFO] 22-06-2026 01:49:59 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:50:00 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 22-06-2026 01:50:00 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:50:02 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 22-06-2026 01:50:02 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:50:05 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 22-06-2026 01:50:06 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Blue Top' into element: By.id: search_product
+[INFO] 22-06-2026 01:50:07 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit_search
+[INFO] 22-06-2026 01:50:08 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:50:08 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:50:11 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 22-06-2026 01:50:13 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 22-06-2026 01:50:15 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'samah' into element: By.id: name
+[INFO] 22-06-2026 01:50:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'test@example.com' into element: By.id: email
+[INFO] 22-06-2026 01:50:18 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'review' into element: By.id: review
+[INFO] 22-06-2026 01:50:18 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 22-06-2026 01:50:18 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: button-review
+[INFO] 22-06-2026 01:50:18 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:50:22 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:50:23 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa='signup-name']
+[INFO] 22-06-2026 01:50:23 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='signup-email']
+[INFO] 22-06-2026 01:50:24 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[INFO] 22-06-2026 01:50:25 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 22-06-2026 01:50:29 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/login
+[INFO] 22-06-2026 01:50:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa='signup-name']
+[INFO] 22-06-2026 01:50:30 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'samahsameh_2026-06-22_01-50-29@gmail.com' into element: By.cssSelector: [data-qa='signup-email']
+[INFO] 22-06-2026 01:50:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[INFO] 22-06-2026 01:50:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: id_gender1
+[INFO] 22-06-2026 01:50:31 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test1234' into element: By.cssSelector: [data-qa='password']
+[INFO] 22-06-2026 01:50:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1' from dropdown: By.cssSelector: [data-qa='days']
+[INFO] 22-06-2026 01:50:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option 'January' from dropdown: By.cssSelector: [data-qa='months']
+[INFO] 22-06-2026 01:50:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option '1990' from dropdown: By.cssSelector: [data-qa='years']
+[INFO] 22-06-2026 01:50:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] 22-06-2026 01:50:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] 22-06-2026 01:50:36 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation' into element: By.cssSelector: [data-qa='first_name']
+[INFO] 22-06-2026 01:50:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test' into element: By.cssSelector: [data-qa='last_name']
+[INFO] 22-06-2026 01:50:37 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation Test Company' into element: By.cssSelector: [data-qa='company']
+[INFO] 22-06-2026 01:50:38 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123 Automation Street' into element: By.cssSelector: [data-qa='address']
+[INFO] 22-06-2026 01:50:38 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Suite 100' into element: By.cssSelector: [data-qa='address2']
+[INFO] 22-06-2026 01:50:38 [main] [com.Ecommercee.utiles.actions.ElementActions] - Selected option 'United States' from dropdown: By.cssSelector: [data-qa='country']
+[INFO] 22-06-2026 01:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'California' into element: By.cssSelector: [data-qa='state']
+[INFO] 22-06-2026 01:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Automation City' into element: By.cssSelector: [data-qa='city']
+[INFO] 22-06-2026 01:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12345' into element: By.cssSelector: [data-qa='zipcode']
+[INFO] 22-06-2026 01:50:39 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '1234567890' into element: By.cssSelector: [data-qa='mobile_number']
+[INFO] 22-06-2026 01:50:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='create-account']
+[INFO] 22-06-2026 01:50:42 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="continue-button"]
