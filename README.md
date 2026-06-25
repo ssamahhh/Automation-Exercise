@@ -40,15 +40,15 @@ The framework contains **20 automated test cases** covering:
 
 ## Technology Stack
 
-| Technology              | Purpose                  |
-| ----------------------- | ------------------------ |
-| Java                    | Programming Language     |
-| Selenium WebDriver      | Browser Automation       |
-| TestNG                  | Test Execution Framework |
-| Maven                   | Dependency Management    |
-| Allure Reports          | Test Reporting           |
-| Page Object Model (POM) | Design Pattern           |
-| Git & GitHub            | Version Control          |
+* Java 17
+* Selenium WebDriver
+* TestNG
+* Maven
+* Allure Reports
+* WebDriver Manager
+* Jackson (JSON Data Handling)
+* Log4j2
+* Page Object Model (POM)
 
 ---
 
@@ -156,24 +156,6 @@ Automation-Exercise
 * **Reusable Utilities** for waits, validations, file handling, logging, and media capture.
 * **Configuration Management** through property files.
 
-```
-```
-
-```
-
----
-
-## Design Patterns Used
-
-### Page Object Model (POM)
-
-The framework follows the Page Object Model design pattern to:
-
-* Improve maintainability
-* Reduce code duplication
-* Enhance readability
-* Separate test logic from page locators
-
 ---
 
 ## Reporting
@@ -244,32 +226,6 @@ mvn clean test
 ```bash
 allure serve allure-results
 ```
-
----
-
-## Test Execution Video
-
-A complete execution video demonstrating the automated test run is included in the repository.
-
-The video showcases:
-
-* Browser execution
-* Automated test flow
-* TestNG execution
-* Allure report generation
-
----
-
-## Test Artifacts
-
-The repository includes:
-
-* Source Code
-* Test Cases
-* Allure Report
-* Execution Video
-* README Documentation
-
 ---
 
 ## Framework Highlights
@@ -289,9 +245,3 @@ The repository includes:
 **Samah Sameh**
 
 Software Testing Engineer
-
----
-
-## License
-
-This project is created for educational and portfolio purposes.
