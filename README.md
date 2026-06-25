@@ -1,177 +1,103 @@
 # Automation Exercise Test Automation Framework
 
-## Overview
+## ITI Software Testing Track – Graduation Project (2026)
 
 This project is a comprehensive UI Test Automation Framework developed for the Automation Exercise website.
 
-The framework automates end-to-end user workflows and validates critical functionalities using modern automation testing practices, including Page Object Model (POM), data-driven testing, reporting, and reusable utilities.
+The framework is built using Selenium WebDriver, Java, TestNG, and Maven, following the Page Object Model (POM) design pattern to create maintainable and reusable test automation scripts.
 
 **Application Under Test:** https://automationexercise.com
 
 ---
 
-## Features
+## Test Coverage
 
-### Automated Test Coverage
-
-The framework contains **20 automated test cases** covering:
+The project contains **20 automated test cases** covering:
 
 * User Registration
-* User Login & Logout
+* Login & Logout
 * Product Search
-* Product Details Verification
-* Add Products to Cart
-* Remove Products from Cart
-* Subscription Functionality
-* Contact Us Form
-* Navigation Validation
-* Scroll Up & Scroll Down Actions
+* Product Details
+* Add to Cart
+* Remove from Cart
 * Checkout Process
-* Place Order Workflow
+* Place Order
 * Payment Validation
+* Contact Us Form
+* Subscription Functionality
+* Navigation Validation
+* Scroll Up & Scroll Down
 
 ### Test Types
 
-* Positive Test Scenarios
-* Negative Test Scenarios
-* End-to-End (E2E) Test Scenarios
+* Positive Test Cases
+* Negative Test Cases
+* End-to-End (E2E) Test Cases
 
 ---
 
-## Technology Stack
+## Technologies Used
 
-* Java 17
+* java 24.0.1
 * Selenium WebDriver
 * TestNG
 * Maven
 * Allure Reports
-* WebDriver Manager
-* Jackson (JSON Data Handling)
 * Log4j2
+* Jackson (JSON)
+* WebDriverManager
+
+---
+
+## Framework Features
+
 * Page Object Model (POM)
+* Data-Driven Testing using JSON
+* Cross-Browser Support
+* Factory Design Pattern
+* Fluent Design Pattern
+* Allure Reporting
+* TestNG Listeners
+* Screenshot Capture on Failure
+* Reusable Utilities
+* Configuration Management
 
 ---
 
 ## Project Structure
 
 ```text
-
-Automation-Exercise
+src
+├── main
+│   ├── Pages
+│   ├── drivers
+│   ├── listeners
+│   └── utilities
 │
-├── src
-│   ├── main
-│   │   ├── java/com/Ecommercee
-│   │   │
-│   │   ├── Pages
-│   │   │   ├── HomePage.java
-│   │   │   ├── LoginPage.java
-│   │   │   ├── SignupPage.java
-│   │   │   ├── ProductsPage.java
-│   │   │   ├── ProductDetailsPage.java
-│   │   │   ├── CartPage.java
-│   │   │   ├── CheckoutPage.java
-│   │   │   ├── PaymentPage.java
-│   │   │   ├── ContactUsPage.java
-│   │   │   ├── TestCasesPage.java
-│   │   │   └── P_AdPage.java
-│   │   │
-│   │   ├── drivers
-│   │   │   ├── AbstractDriver.java
-│   │   │   ├── GUIDriver.java
-│   │   │   ├── WebDriverProvider.java
-│   │   │   ├── BrowserType.java
-│   │   │   ├── chromeFactory.java
-│   │   │   ├── FirefoxFactory.java
-│   │   │   ├── EdgeFactory.java
-│   │   │   └── SafariFactory.java
-│   │   │
-│   │   ├── listeners
-│   │   │   └── TestNGListeners.java
-│   │   │
-│   │   └── utiles
-│   │       ├── actions
-│   │       ├── Validations
-│   │       ├── allurereport
-│   │       ├── dataReader
-│   │       ├── logs
-│   │       ├── media
-│   │       ├── FilesUtils.java
-│   │       ├── OSUtils.java
-│   │       ├── TerminalUtils.java
-│   │       ├── TimeManager.java
-│   │       └── WaitManager.java
-│   │
-│   └── resources
-│       ├── META-INF.services
-│       ├── allure.properties
-│       ├── environment.properties
-│       ├── webApp.properties
-│       ├── seleniumGrid.properties
-│       ├── waits.properties
-│       ├── vedio.properties
-│       ├── db.properties
-│       └── log4j2.properties
+├── test
+│   ├── tests
+│   └── test-data
 │
-├── src/test
-│   ├── java
-│   │   ├── HomeTests.java
-│   │   ├── LoginTests.java
-│   │   ├── RegisterTests.java
-│   │   ├── ProductTests.java
-│   │   ├── CartTests.java
-│   │   ├── PaymentTests.java
-│   │   └── ContactusTests.java
-│   │
-│   └── resources
-│       ├── test-data
-│       │   ├── sign-up.json
-│       │   ├── login-data.json
-│       │   ├── home-data.json
-│       │   ├── Product-data.json
-│       │   ├── Cart-data.json
-│       │   ├── Payment-data.json
-│       │   └── contactus-data.json
-│       │
-│       ├── testfile.txt
-│       ├── cat.jpg
-│       └── config.properties
-│
-├── test-output
+├── resources
 │
 ├── testng.xml
-├── pom.xml
-├── .gitignore
-└── README.md
+└── pom.xml
 ```
-
-### Framework Architecture
-
-* **Page Object Model (POM)** for maintainable test design.
-* **Factory Design Pattern** for browser initialization.
-* **Fluent Interface Design** for readable test steps.
-* **Data-Driven Testing** using JSON files.
-* **Cross-Browser Testing** (Chrome, Firefox, Edge, Safari).
-* **Allure Reporting** with screenshots, logs, and execution details.
-* **TestNG Listeners** for reporting and test lifecycle management.
-* **Reusable Utilities** for waits, validations, file handling, logging, and media capture.
-* **Configuration Management** through property files.
 
 ---
 
-## Reporting
-
-### Allure Report
+## Allure Report
 
 The framework generates detailed Allure Reports including:
 
-* Test execution summary
-* Passed / Failed test cases
-* Screenshots on failure
-* Execution timeline
-* Test steps
-* Environment information
+* Test Execution Summary
+* Passed / Failed Tests
+* Screenshots on Failure
+* Test Steps
+* Execution Timeline
+* Environment Information
 
-### View Report
+To open the report:
 
 ```bash
 allure serve allure-results
@@ -179,15 +105,15 @@ allure serve allure-results
 
 ---
 
-## Installation
+## How to Run
 
-### Clone Repository
+### Clone the Repository
 
 ```bash
 git clone <repository-url>
 ```
 
-### Navigate to Project
+### Navigate to the Project
 
 ```bash
 cd AutomationExercise
@@ -199,26 +125,10 @@ cd AutomationExercise
 mvn clean install
 ```
 
----
-
-## Running Tests
-
 ### Run All Tests
 
 ```bash
 mvn test
-```
-
-### Run Specific Test Class
-
-```bash
-mvn test -Dtest=TestClassName
-```
-
-### Generate Allure Results
-
-```bash
-mvn clean test
 ```
 
 ### Open Allure Report
@@ -228,15 +138,19 @@ allure serve allure-results
 ```
 ---
 
-## Framework Highlights
+## What I Learned
 
-* Scalable Architecture
-* Reusable Components
-* Easy Maintenance
-* Detailed Reporting
-* Clean Code Practices
-* Industry Standard Design Patterns
-* Cross-Browser Ready Structure
+Through this project, I gained experience in:
+
+* Selenium WebDriver Automation
+* TestNG Framework
+* Maven Project Management
+* Page Object Model (POM)
+* Data-Driven Testing
+* Allure Reporting
+* Cross-Browser Testing
+* Git & GitHub
+* Automation Framework Design
 
 ---
 
@@ -244,4 +158,3 @@ allure serve allure-results
 
 **Samah Sameh**
 
-Software Testing Engineer
