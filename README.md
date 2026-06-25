@@ -38,7 +38,7 @@ The project contains **20 automated test cases** covering:
 
 ## Technologies Used
 
-* java 24.0.1
+* Java 24.0.1
 * Selenium WebDriver
 * TestNG
 * Maven
