@@ -67,21 +67,93 @@ The project contains **20 automated test cases** covering:
 ## Project Structure
 
 ```text
-src
-├── main
-│   ├── Pages
-│   ├── drivers
-│   ├── listeners
-│   └── utilities
+
+Automation-Exercise
 │
-├── test
-│   ├── tests
-│   └── test-data
+├── src
+│   ├── main
+│   │   ├── java/com/Ecommercee
+│   │   │
+│   │   ├── Pages
+│   │   │   ├── HomePage.java
+│   │   │   ├── LoginPage.java
+│   │   │   ├── SignupPage.java
+│   │   │   ├── ProductsPage.java
+│   │   │   ├── ProductDetailsPage.java
+│   │   │   ├── CartPage.java
+│   │   │   ├── CheckoutPage.java
+│   │   │   ├── PaymentPage.java
+│   │   │   ├── ContactUsPage.java
+│   │   │   ├── TestCasesPage.java
+│   │   │   └── P_AdPage.java
+│   │   │
+│   │   ├── drivers
+│   │   │   ├── AbstractDriver.java
+│   │   │   ├── GUIDriver.java
+│   │   │   ├── WebDriverProvider.java
+│   │   │   ├── BrowserType.java
+│   │   │   ├── chromeFactory.java
+│   │   │   ├── FirefoxFactory.java
+│   │   │   ├── EdgeFactory.java
+│   │   │   └── SafariFactory.java
+│   │   │
+│   │   ├── listeners
+│   │   │   └── TestNGListeners.java
+│   │   │
+│   │   └── utiles
+│   │       ├── actions
+│   │       ├── Validations
+│   │       ├── allurereport
+│   │       ├── dataReader
+│   │       ├── logs
+│   │       ├── media
+│   │       ├── FilesUtils.java
+│   │       ├── OSUtils.java
+│   │       ├── TerminalUtils.java
+│   │       ├── TimeManager.java
+│   │       └── WaitManager.java
+│   │
+│   └── resources
+│       ├── META-INF.services
+│       ├── allure.properties
+│       ├── environment.properties
+│       ├── webApp.properties
+│       ├── seleniumGrid.properties
+│       ├── waits.properties
+│       ├── vedio.properties
+│       ├── db.properties
+│       └── log4j2.properties
 │
-├── resources
+├── src/test
+│   ├── java
+│   │   ├── HomeTests.java
+│   │   ├── LoginTests.java
+│   │   ├── RegisterTests.java
+│   │   ├── ProductTests.java
+│   │   ├── CartTests.java
+│   │   ├── PaymentTests.java
+│   │   └── ContactusTests.java
+│   │
+│   └── resources
+│       ├── test-data
+│       │   ├── sign-up.json
+│       │   ├── login-data.json
+│       │   ├── home-data.json
+│       │   ├── Product-data.json
+│       │   ├── Cart-data.json
+│       │   ├── Payment-data.json
+│       │   └── contactus-data.json
+│       │
+│       ├── testfile.txt
+│       ├── cat.jpg
+│       └── config.properties
+│
+├── test-output
 │
 ├── testng.xml
-└── pom.xml
+├── pom.xml
+├── .gitignore
+└── README.md
 ```
 
 ---
