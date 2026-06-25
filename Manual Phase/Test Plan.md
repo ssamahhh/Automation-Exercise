@@ -4,13 +4,13 @@
 
 **Project Name:** Automation Exercise Website Testing
 
-Website: https://automationexercise.com
+**Application Under Test (AUT):** https://automationexercise.com
 
-Prepared By: Samah Sameh
+**Prepared By:** Samah Sameh
 
-Testing Types: Manual Testing & Automation Testing
+**Testing Types:** Manual Testing & Automation Testing
 
-Version: 1.0
+**Version:** 1.0
 
 ---
 
