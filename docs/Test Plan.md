@@ -132,9 +132,9 @@ Automated test scenarios include:
 
 ## Assumptions
 
-Stable internet connection
-Available test accounts
-Stable test environment
+* Stable internet connection
+* Available test accounts
+* Stable test environment
 
 ---
 
