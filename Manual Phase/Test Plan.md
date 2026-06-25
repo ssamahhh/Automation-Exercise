@@ -2,9 +2,9 @@
 
 ## 1. Project Information
 
-**Project Name:** Automation Exercise Website Testing
+**Project Name: Automation Exercise Website Testing
 **Website:** https://automationexercise.com
-**Prepared By:** [Your Name]
+**Prepared By:** Samah Sameh
 **Testing Types:** Manual Testing & Automation Testing
 
 ---
@@ -27,6 +27,7 @@ To verify that the Automation Exercise website functions correctly, meets busine
 * Contact Us Form
 * Subscription Feature
 * Navigation Between Pages
+* Checkout & Payment
 
 ### Out of Scope
 
@@ -63,9 +64,12 @@ Automated test scenarios include:
 * Login
 * Logout
 * Product Search
+* Product Details
 * Add to Cart
 * Contact Us
 * Subscription Validation
+* Checkout
+* Payment
 
 ---
 
@@ -73,7 +77,7 @@ Automated test scenarios include:
 
 | Item             | Details            |
 | ---------------- | ------------------ |
-| Operating System | Windows 10/11      |
+| Operating System | Windows 10         |
 | Browser          | Google Chrome      |
 | Automation Tool  | Selenium WebDriver |
 | Framework        | TestNG             |
@@ -86,8 +90,8 @@ Automated test scenarios include:
 ## 6. Entry Criteria
 
 * Test environment is available.
+* Test cases is prepared
 * Test data is prepared.
-* Requirements are understood.
 * Website is accessible.
 
 ---
