@@ -2,10 +2,15 @@
 
 ## 1. Project Information
 
-**Project Name: Automation Exercise Website Testing
-**Website:** https://automationexercise.com
-**Prepared By:** Samah Sameh
-**Testing Types:** Manual Testing & Automation Testing
+**Project Name:** Automation Exercise Website Testing
+
+Website: https://automationexercise.com
+
+Prepared By: Samah Sameh
+
+Testing Types: Manual Testing & Automation Testing
+
+Version: 1.0
 
 ---
 
