@@ -1,10 +1,11 @@
 # Automation Exercise - Manual Testing Project
 
 ## Overview
+This repository contains a comprehensive Manual Testing project for the Automation Exercise website.
 
-This Readme file contains a comprehensive **Manual Testing** project for the **Automation Exercise** website.
+The project demonstrates the complete manual testing lifecycle, including test planning, test case design, test execution, defect reporting.
 
-The project covers the complete manual testing process, including test case design, test execution, defect reporting, and test documentation.
+A total of 69 manual test cases were designed and executed across different application modules. During testing, 9 defects were identified, documented, and reported using professional bug reporting practices.
 
 **Application Under Test (AUT):**
 https://automationexercise.com/
@@ -69,16 +70,6 @@ The testing covered the following modules:
 
 ---
 
-## Deliverables
-
-* Test Plan
-* Test Scenarios
-* Test Cases
-* Bug Reports
-* Test Execution Results
-
----
-
 ## Defect Reporting
 
 Each reported defect includes:
@@ -88,7 +79,7 @@ Each reported defect includes:
 * Module
 * Severity
 * Priority
-* Probability (if applicable)
+* Probability 
 * Preconditions
 * Steps to Reproduce
 * Expected Result
@@ -100,43 +91,16 @@ Each reported defect includes:
 ## Tools Used
 
 * Microsoft Excel / Google Sheets (Test Cases)
-* Microsoft Word / Google Docs (Documentation)
 * Git & GitHub
-
----
-
-## Repository Structure
-
-```text
-Manual-Testing/
-│
-├── README.md
-├── Test Cases
-├── Bug Reports
-└── Screenshots (Optional)
-```
 
 ---
 
 ## Skills Demonstrated
 
-* Requirement Analysis
 * Test Case Design
 * Test Execution
 * Defect Reporting
 * Functional Testing
 * UI Testing
 * Regression Testing
-* QA Documentation
-* GitHub Documentation
-
----
-
-## Author
-
-**Shay Belaban**
-
-Software Testing Trainee
-
-GitHub: https://github.com/YOUR_USERNAME
 
