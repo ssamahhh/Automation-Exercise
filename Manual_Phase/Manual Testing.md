@@ -3,7 +3,7 @@
 ## Overview
 This File contains a comprehensive Manual Testing project for the Automation Exercise website.
 
-A total of **69 manual test cases** were designed and executed across different application modules. During testing, **9 defects** were identified, documented, and reported using professional bug reporting practices.
+A total of **69 manual test cases** were designed and executed across different application modules. During testing, **8 defects** were identified, documented, and reported using professional bug reporting practices.
 
 **Application Under Test (AUT):**
 https://automationexercise.com/
