@@ -9,7 +9,7 @@ The framework is built using Selenium WebDriver, Java, TestNG, and Maven, follow
 **Application Under Test:** https://automationexercise.com
 
 ---
-## 🔗 Project Links
+## Project Deliverables
 
 | Resource | Link |
 |----------|------|
