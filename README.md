@@ -9,6 +9,14 @@ The framework is built using Selenium WebDriver, Java, TestNG, and Maven, follow
 **Application Under Test:** https://automationexercise.com
 
 ---
+## 🔗 Project Links
+
+| Resource | Link |
+|----------|------|
+| 📊 Allure Report | [View Allure Report][([https://your-allure-report-link](http://172.29.208.1:51954/index.html))](http://172.29.208.1:51954/index.html) |
+| 🎥 Test Execution Video | [Watch Execution Video](https://your-video-link) |
+
+---
 
 ## Test Coverage
 
