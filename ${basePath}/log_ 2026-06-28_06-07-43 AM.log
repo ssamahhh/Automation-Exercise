@@ -1,0 +1,43 @@
+[INFO] 28-06-2026 06:07:43 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 28-06-2026 06:07:56 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/view_cart
+[INFO] 28-06-2026 06:07:56 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:07:59 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //a[@href='/products']
+[INFO] 28-06-2026 06:08:09 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 28-06-2026 06:08:09 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:23 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 28-06-2026 06:08:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 28-06-2026 06:08:25 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:27 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 28-06-2026 06:08:27 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:29 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 28-06-2026 06:08:30 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:32 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
+[INFO] 28-06-2026 06:08:32 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:34 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='Register / Login']
+[INFO] 28-06-2026 06:08:40 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'testerqaeng@gmail.com' into element: By.cssSelector: [data-qa='login-email']
+[INFO] 28-06-2026 06:08:41 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test@123' into element: By.cssSelector: [data-qa='login-password']
+[INFO] 28-06-2026 06:08:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='login-button']
+[INFO] 28-06-2026 06:08:46 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //*[normalize-space(text())='Cart']
+[INFO] 28-06-2026 06:08:49 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:51 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: .btn.btn-default.check_out
+[INFO] 28-06-2026 06:08:57 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'comment' into element: By.name: message
+[INFO] 28-06-2026 06:08:57 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:08:58 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(text(),'Place Order')]
+[INFO] 28-06-2026 06:09:01 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text 'Test User' into element: By.name: name_on_card
+[INFO] 28-06-2026 06:09:01 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '4111111111111111' into element: By.name: card_number
+[INFO] 28-06-2026 06:09:02 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] 28-06-2026 06:09:03 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] 28-06-2026 06:09:03 [main] [com.Ecommercee.utiles.actions.ElementActions] - Typed text '2030' into element: By.name: expiry_year
+[INFO] 28-06-2026 06:09:06 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] 28-06-2026 06:09:07 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 28-06-2026 06:09:09 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 28-06-2026 06:09:11 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:09:11 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 28-06-2026 06:09:11 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:09:14 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 28-06-2026 06:09:14 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:09:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: a.cart_quantity_delete
+[INFO] 28-06-2026 06:09:17 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text '' from element: By.xpath: //b[text()='Cart is empty!']
+[INFO] 28-06-2026 06:09:18 [main] [com.Ecommercee.utiles.actions.ElementActions] - Got text 'Cart is empty!' from element: By.xpath: //b[text()='Cart is empty!']
+[INFO] 28-06-2026 06:09:23 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 28-06-2026 06:09:35 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/contact_us

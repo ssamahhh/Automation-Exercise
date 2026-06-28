@@ -1,0 +1,15 @@
+[INFO] 28-06-2026 06:04:46 [main] [com.Ecommercee.drivers.GUIDriver] - Initializing driver for browser: Edge
+[INFO] 28-06-2026 06:05:18 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/view_cart
+[INFO] 28-06-2026 06:05:18 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:05:21 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //a[@href='/products']
+[INFO] 28-06-2026 06:05:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 28-06-2026 06:05:25 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:05:25 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 28-06-2026 06:05:25 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:05:27 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']
+[INFO] 28-06-2026 06:05:30 [main] [com.Ecommercee.utiles.actions.BrowserActions] - Navigating to URL: https://automationexercise.com/products
+[INFO] 28-06-2026 06:05:33 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: (//a[contains(text(),'View Product')])[1]
+[INFO] 28-06-2026 06:05:33 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:05:35 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.cssSelector: button.cart
+[INFO] 28-06-2026 06:05:40 [main] [com.Ecommercee.Pages.P_AdPage] - No ad displayed
+[INFO] 28-06-2026 06:05:43 [main] [com.Ecommercee.utiles.actions.ElementActions] - Clicked on element: By.xpath: //u[text()='View Cart']

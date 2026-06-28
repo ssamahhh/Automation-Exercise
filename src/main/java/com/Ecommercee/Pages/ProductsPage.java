@@ -54,6 +54,7 @@ public class ProductsPage {
     @Step("Search for product: {productName}")
     public ProductsPage searchProduct(String productName) {
         driver.element().type(searchInput,productName);
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(searchButton);
         return this;
     }
@@ -67,24 +68,28 @@ public class ProductsPage {
 
     @Step("Open first product details")
     public ProductDetailsPage openFirstProduct() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(firstProductView);
         return new ProductDetailsPage(driver);
     }
 
     @Step("Add first product to cart")
     public ProductsPage addFirstProductToCart() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(firstProductView);
         return this;
     }
 
     @Step("Click Continue Shopping")
     public ProductsPage clickContinueShopping() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(continueShoppingButton);
         return this;
     }
 
     @Step("Click View Cart")
     public CartPage clickViewCart() {
+        new P_AdPage(driver).handleAdIfPresent();
         driver.element().click(viewCartButton);
         return new CartPage(driver);
     }
