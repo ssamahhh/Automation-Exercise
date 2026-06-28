@@ -17,16 +17,14 @@ https://automationexercise.com/
 The complete manual test cases are available here:
 
 **Test Cases:**
-🔗 **[[Add your Test Cases link here](https://docs.google.com/spreadsheets/d/1IqZhbUCrZHqSr4Dj7LStbKLHwWtJbLHN/edit?usp=sharing&ouid=109492614464408666993&rtpof=true&sd=true)]**
-
----
+ **[[Test Cases link](https://docs.google.com/spreadsheets/d/1IqZhbUCrZHqSr4Dj7LStbKLHwWtJbLHN/edit?usp=sharing&ouid=109492614464408666993&rtpof=true&sd=true)]**
 
 ### Bug Reports
 
 The reported defects can be found here:
 
 **Bug Report:**
-🔗 **[Add your Bug Report link here]**
+ **[[Bug Report link](https://docs.google.com/spreadsheets/d/1VfH3JelKiunIhdUKfn0vk2dhyFM2hpED/edit?usp=sharing&ouid=109492614464408666993&rtpof=true&sd=true)]**
 
 ---
 
