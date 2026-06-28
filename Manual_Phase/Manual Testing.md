@@ -1,9 +1,7 @@
 # Automation Exercise - Manual Testing Project
 
 ## Overview
-This repository contains a comprehensive Manual Testing project for the Automation Exercise website.
-
-The project demonstrates the complete manual testing lifecycle, including test planning, test case design, test execution, defect reporting.
+This File contains a comprehensive Manual Testing project for the Automation Exercise website.
 
 A total of **69 manual test cases** were designed and executed across different application modules. During testing, **9 defects** were identified, documented, and reported using professional bug reporting practices.
 
