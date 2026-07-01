@@ -156,7 +156,9 @@ Automation-Exercise
 │       ├── cat.jpg
 │       └── config.properties
 │
-├── 
+├──
+```
+
 
 ---
 
