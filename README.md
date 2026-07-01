@@ -14,7 +14,7 @@ The framework is built using Selenium WebDriver, Java, TestNG, and Maven, follow
 | Resource | Link |
 |----------|------|
 | 📊 Allure Report | [View Allure Report](https://drive.google.com/file/d/1wYjvSMaXH8DaEnQpP17_ov4kq6pwVW4B/view?usp=sharing) |
-| 🎥 Test Execution Video | [Watch Execution Video](https://drive.google.com/file/d/1Y3hDefQOky3SGFG7yKBrttvPC55XvT4S/view?usp=sharing) |
+| 🎥 Test Execution Video | [Watch Execution Video](https://drive.google.com/file/d/17pbhlFmob_1UggzCc6WFUQvefSvD44t9/view?usp=sharing) |
 
 ---
 
