@@ -66,7 +66,6 @@ The project contains **20 automated test cases** covering:
 * Fluent Design Pattern
 * Allure Reporting
 * TestNG Listeners
-* Screenshot Capture on Failure
 * Reusable Utilities
 * Configuration Management
 
