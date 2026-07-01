@@ -156,13 +156,7 @@ Automation-Exercise
 │       ├── cat.jpg
 │       └── config.properties
 │
-├── test-output
-│
-├── testng.xml
-├── pom.xml
-├── .gitignore
-└── README.md
-```
+├── 
 
 ---
 
